@@ -1,1 +1,5 @@
 
+Inputs : Customer info from "Customer.txt"
+	 IPs of customers from "IP.txt"
+	 
+Output : n number of policy chains containing totally 100 NFs for each customer
