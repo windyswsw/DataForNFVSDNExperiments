@@ -1,5 +1,9 @@
 
-Inputs : Customer info from "Customer.txt"
-	 IPs of customers from "IP.txt"
-	 
-Output : n number of policy chains containing totally 100 NFs for each customer
+Policy requests generation program
+
+We have considered large scaled enterprise networks where each network has 100 NFs. A chain of NFs consists of 2
+to 7 NFs and the number of NFs in a policy follows a truncated power-low distribution with exponent 2, minimum 2 and maximum 7. The types of NFs in a policy are selected
+randomly, with different probabilities based on how many instances of each type of NFs can be there in the enterprise. Policy requests generation program is written in c++.
+
+Inputs to the program: number of large scaled enterprise networks (customers.txt)
+Output of the program: a set of policies for each enterprise with 100 NFs
