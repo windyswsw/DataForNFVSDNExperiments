@@ -1,5 +1,8 @@
 
-Python codes to create topology information for K-Fat Tree and VL2 architectures.
+Topology generation program
 
-Input : Number of servers, Number of pods
-Output : Topology information including Nodes and Links
+Following the standards given for (1) k fat tree, (2) VL2 and (3) BCube architectures, we define the network and equally distribute the number of servers over ToR switches
+of the network. The topology generation program is written in python.
+
+ Inputs to the program: network architecture and number of servers
+ Output of the program: the topology: nodes, links and paths
