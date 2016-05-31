@@ -1,1 +1,5 @@
 
+Python codes to create topology information for K-Fat Tree and VL2 architectures.
+
+Input : Number of servers, Number of pods
+Output : Topology information including Nodes and Links
