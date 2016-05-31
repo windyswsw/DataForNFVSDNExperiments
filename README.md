@@ -1,5 +1,5 @@
 
-Data Modelling for the Evaluation of Virtualized Network Functions Resource Allocation Algorithms
+##Data Modelling for the Evaluation of Virtualized Network Functions Resource Allocation Algorithms
 
 Network Function Virtualization (NFV) proposes to move packet processing from dedicated hardware middle-boxes to software running on commodity servers: virtualized Network Function (NFs) (i.e, Firewall, Proxy, Intrusion Detection System etc.). We have been developing an experimental platform called Network Function Center (NFC) to study issues related to NFV and NFs, assuming that the NFC will deliver virtualized NFs as a service to clients on a subscription basis. Our studies specially focus on dynamic resource allocation for NFs and we have proposed two new resource allocation algorithms based on Genetic Programming (GP) [1] and currently working on another algorithm based on Iterative Local Search. For a more realistic evaluation of these algorithms, testing data is a fundamental component, but unfortunately, public traffic data specifically referring to virtualized NFs chains is not readily available. Therefore, we developed a model to generate the specific data we needed, based on the available general traffic data [2].
 This repository contains all the details about how we modelled general data into the specific data we wanted, with along the software we used and the assumptions we made during the data modelling process. Using this data and programs, the evaluation results presented in our publications can be easily reproduced.
@@ -9,13 +9,13 @@ This repository contains all the details about how we modelled general data into
 [2] W. Rankothge, F. Le, A. Russo, and J. Lobo, “Experimental results on the use of genetic algorithms for scaling virtualized network functions,” in IEEE SDN/NFV 2015.
 
 
-Project Structure:
+##Project Structure:
 1.	GeneratePolicies
 2.	DistributeTrafficOverPolicies
 3.	PoliciesToChange
 4.	TopologyCreator
 
-How to use the programs and generate the required data sets
+##How to use the programs and generate the required data sets
 
 1) First step is to generate the policy requests data set using the policy requests generation program: GeneratePolicies.
 Inputs to the program: number of large scaled enterprise networks 
@@ -31,11 +31,11 @@ Output of the program: distribution of the traffic load over policies
 Inputs to the program: network architecture and number of servers 
 Output of the program: the topology: nodes, links and paths
 
-License
+##License
 
 All the software programs are distributed under the terms of the GNU General Public License v3.
 
-When using this archive, please cite the above papers:
+##When using this archive, please cite the above papers:
 
 @INPROCEEDINGS{IEEESDN,
 	AUTHOR = "W. Rankothge and Frank Le and A. Russo and J. Lobo",
