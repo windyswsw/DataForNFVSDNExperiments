@@ -33,7 +33,7 @@ Output of the program: the topology: nodes, links and paths
 
 ##License
 
-All the software programs are distributed under the terms of the GNU General Public License v3.
+All the software programs are distributed under the terms of the [GNU General Public License v3](http://www.gnu.org/licenses/gpl-3.0-standalone.html).
 
 ##When using this archive, please cite the above papers:
 
