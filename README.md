@@ -36,10 +36,6 @@ License
 All the software programs are distributed under the terms of the GNU General Public License v3.
 
 When using this archive, please cite the above papers:
-@INPROCEEDINGS{IEEESDN, AUTHOR = "W. Rankothge and Frank Le and A. Russo and J. Lobo", TITLE = "Experimental Results on the use of Genetic Algorithms for Scaling Virtualized Network Functions", BOOKTITLE = "IEEE SDN/NFV 2015"}
-@INPROCEEDINGS{IM, AUTHOR = "W. Rankothge and J. Ma and Frank Le and A. Russo and J. Lobo", TITLE = "Towards Making Network Function Virtualization a Cloud Computing Service", BOOKTITLE = "IEEE IM 2015"}
-
-
 
 @INPROCEEDINGS{IEEESDN,
 	AUTHOR = "W. Rankothge and Frank Le and A. Russo and J. Lobo",
