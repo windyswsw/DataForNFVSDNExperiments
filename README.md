@@ -5,8 +5,10 @@ Network Function Virtualization (NFV) proposes to move packet processing from de
 This repository contains all the details about how we modelled general data into the specific data we wanted, with along the software we used and the assumptions we made during the data modelling process. Using this data and programs, the evaluation results presented in our publications can be easily reproduced.
 
 [1] W. Rankothge, J. Ma, F. Le, A. Russo, and J. Lobo, “Towards making network function virtualization a cloud computing service,” in IM 2015
+(http://repositori.upf.edu/handle/10230/26035)
 
 [2] W. Rankothge, F. Le, A. Russo, and J. Lobo, “Experimental results on the use of genetic algorithms for scaling virtualized network functions,” in IEEE SDN/NFV 2015.
+(http://repositori.upf.edu/handle/10230/26036)
 
 
 ##Project Structure:
