@@ -59,7 +59,7 @@ The dataset and all the software programs are distributed under the terms of the
 
 ##When using this archive, please cite the above papers:
 
-@INPROCEEDINGS{IM,
+	@INPROCEEDINGS{IM,
 
 	AUTHOR = "W. Rankothge and J. Ma and Frank Le and A. Russo and J. Lobo",
 	
@@ -67,7 +67,7 @@ The dataset and all the software programs are distributed under the terms of the
 	
 	BOOKTITLE = "IEEE IM 2015"}
 	
-@INPROCEEDINGS{IEEESDN,
+	@INPROCEEDINGS{IEEESDN,
 
 	AUTHOR = "W. Rankothge and Frank Le and A. Russo and J. Lobo",
 	
