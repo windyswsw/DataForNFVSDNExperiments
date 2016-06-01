@@ -1,6 +1,0 @@
-This folder contains example datasets for
-1) Possible policy requests with initial traffic passing through them defined
-
-2) Scaling requirements for each 15 minutes for 2 days
-
-3) Topology data (nodes, links, paths) for K-Fat Tree, BCube and VL2 architectures with 64 servers
