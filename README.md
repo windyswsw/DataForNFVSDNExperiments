@@ -50,8 +50,8 @@ If you want to generate your own data sets according to your requirements, you c
 3) The third step is to create the scaling requirements data set to reflect the traffic changes over the time using the scaling requirements over the time program: PoliciesToChange.
 
 4) The last step is to generate the required topology data for different network architectures (K-Fat tree, BCube, VL2) using the topology generation program: TopologyCreator
-Inputs to the program: network architecture and number of servers 
-Output of the program: the topology: nodes, links and paths
+- Inputs to the program: network architecture and number of servers 
+- Output of the program: the topology: nodes, links and paths
 
 ##License
 
