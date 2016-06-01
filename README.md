@@ -55,18 +55,24 @@ Output of the program: the topology: nodes, links and paths
 
 ##License
 
-All the software programs are distributed under the terms of the [GNU General Public License v3](http://www.gnu.org/licenses/gpl-3.0-standalone.html).
+The dataset and all the software programs are distributed under the terms of the [GNU General Public License v3](http://www.gnu.org/licenses/gpl-3.0-standalone.html).
 
 ##When using this archive, please cite the above papers:
 
 @INPROCEEDINGS{IM,
+
 	AUTHOR = "W. Rankothge and J. Ma and Frank Le and A. Russo and J. Lobo",
+	
 	TITLE = "Towards Making Network Function Virtualization a Cloud Computing Service",
+	
 	BOOKTITLE = "IEEE IM 2015"}
 	
 @INPROCEEDINGS{IEEESDN,
+
 	AUTHOR = "W. Rankothge and Frank Le and A. Russo and J. Lobo",
+	
 	TITLE = "Experimental Results on the use of Genetic Algorithms for Scaling Virtualized Network Functions",
+	
 	BOOKTITLE = "IEEE SDN/NFV 2015"}
 
 
