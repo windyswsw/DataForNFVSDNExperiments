@@ -20,6 +20,7 @@ This repository contains all the details about how we modelled general data into
 There are two ways that this repository can be useful for anyone that needs data about VNFs and their traffic on the cloud.
 
 1) Directly use the already generated data set
+
 2) Generate your own data set using the given programs
 
 ##How to use the already generated data set: ExampleDataSet
@@ -27,7 +28,9 @@ There are two ways that this repository can be useful for anyone that needs data
 We have generated data for
 
 1) Possible policy requests with initial traffic passing through them defined
+
 2) Scaling requirements for each 15 minutes for 2 days
+
 3) Topology data (nodes, links, paths) for K-Fat Tree, BCube and VL2 architectures with 64 servers
 
 You can use these data directly as inputs for your experiments.
