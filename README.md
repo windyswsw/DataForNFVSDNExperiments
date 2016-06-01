@@ -57,7 +57,7 @@ If you want to generate your own data sets according to your requirements, you c
 
 The dataset and all the software programs are distributed under the terms of the [GNU General Public License v3](http://www.gnu.org/licenses/gpl-3.0-standalone.html).
 
-##When using this archive, please cite the above papers:
+##When using this archive, please cite the following papers:
 
 	@INPROCEEDINGS{IM,
 
