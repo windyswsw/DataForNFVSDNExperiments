@@ -18,14 +18,19 @@ This repository contains all the details about how we modelled general data into
 ##Guidelines to use the data and programs in the repository
 
 There are two ways that this repository can be useful for anyone that needs data about VNFs and their traffic on the cloud.
+
 1.Directly use the already generated data set
+
 2.Generate your own data set using the given programs
 
 ##How to use the already generated data set: ExampleDataSet
 
 We have generated data for:
+
 1.Possible policy requests with initial traffic passing through them defined
+
 2.Scaling requirements for each 15 minutes for 2 days
+
 3.Topology data (nodes, links, paths) for K-Fat Tree, BCube and VL2 architectures with 64 servers
 
 You can use these data directly as inputs for your experiments.
@@ -35,12 +40,12 @@ You can use these data directly as inputs for your experiments.
 If you want to generate your own data sets according to your requirements, you can use the given programs.
 
 1) First step is to generate the policy requests data set using the policy requests generation program: GeneratePolicies.
-Inputs to the program: number of large scaled enterprise networks 
-Output of the program: a set of policies for each enterprise with 100 NFs
+- Inputs to the program: number of large scaled enterprise networks 
+- Output of the program: a set of policies for each enterprise with 100 NFs
 
 2) After we have created the policy requets data set, the seconds step is to create the traffic data set for the policies using the initial traffic distribution program: DistributeTrafficOverPolicies.
-Inputs to the program: the set of policies, initial traffic load 
-Output of the program: distribution of the traffic load over policies
+- Inputs to the program: the set of policies, initial traffic load 
+- Output of the program: distribution of the traffic load over policies
 
 3) The third step is to create the scaling requirements data set to reflect the traffic changes over the time using the scaling requirements over the time program: PoliciesToChange.
 
